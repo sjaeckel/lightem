@@ -75,3 +75,7 @@ If you want to contribute:
 - Commit, do not mess with version
 - Send me a pull request. Bonus points for topic branches.
 
+## Kudos to
+[Pete Griffiths](http://picprojects.org.uk/projects/picprojects.htm) for the definition of the protocol
+
+[@mrtazz](https://github.com/mrtazz) for the base of the Makefile
