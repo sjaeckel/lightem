@@ -62,6 +62,16 @@ within that group.
 
         #include <lightem.h>
 
+## Dependencies
+
+### Library
+
+- None
+
+### Tests
+
+- [Google Test](https://code.google.com/p/googletest/)
+
 ## Meta
 - [Bugs](https://github.com/sjaeckel/lightem/issues)
 
