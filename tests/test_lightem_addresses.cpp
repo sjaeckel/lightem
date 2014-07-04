@@ -63,6 +63,21 @@ INSTANTIATE_TEST_CASE_P(
          addressTest(135, 112, 16,  1 ),
 
          addressTest(144, 0,   8,   16 ),
+         addressTest(145, 1,   8,   16 ),
+         addressTest(146, 2,   8,   16 ),
+         addressTest(147, 3,   8,   16 ),
+         addressTest(148, 4,   8,   16 ),
+         addressTest(149, 5,   8,   16 ),
+         addressTest(150, 6,   8,   16 ),
+         addressTest(151, 7,   8,   16 ),
+         addressTest(152, 8,   8,   16 ),
+         addressTest(153, 9,   8,   16 ),
+         addressTest(154, 10,  8,   16 ),
+         addressTest(155, 11,  8,   16 ),
+         addressTest(156, 12,  8,   16 ),
+         addressTest(157, 13,  8,   16 ),
+         addressTest(158, 14,  8,   16 ),
+         addressTest(159, 15,  8,   16 ),
 
          addressTest(255, 0,   128, 1 )
     ));
