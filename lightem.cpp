@@ -157,7 +157,7 @@ uint8_t* lightem::getAddr(size_t* psz)
               }
             else if ((p->addr & 0x80) == 0x80)
               {
-                uint8_t a = p->addr & 0x70;
+                uint8_t a = (p->addr & 0x07) << 4;
                 for (size_t i = 0; i < sz; ++i)
                   {
                     r[i] = a + i;
