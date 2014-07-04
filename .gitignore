@@ -1,0 +1,8 @@
+Debug*/
+Release*/
+bin/
+lib/
+.project
+.cproject
+*.html
+*.[ao]
