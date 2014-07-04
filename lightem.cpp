@@ -56,11 +56,9 @@ uint8_t lightem::_csum(uint8_t* p)
 
   pe = p + (sizeof(st_lightem_t)-1);
   while (p != pe) {
-    csum += *p;
+    csum -= *p;
     ++p;
   }
-
-  csum = ~csum;
 
   return csum;
 }
