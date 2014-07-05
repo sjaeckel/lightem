@@ -1,3 +1,6 @@
+
+#ifdef LIGHTEM_TESTING
+
 #include <string.h>
 #include <gtest/gtest.h>
 #include "lightem.h"
@@ -82,8 +85,4 @@ INSTANTIATE_TEST_CASE_P(
          addressTest(255, 0,   128, 1 )
     ));
 
-
-#ifdef LIGHTEM_TESTING
-
-
-#endif
+#endif /* LIGHTEM_TESTING */
