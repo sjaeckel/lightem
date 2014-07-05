@@ -1,3 +1,6 @@
+
+#ifdef LIGHTEM_TESTING
+
 #include <string.h>
 #include <gtest/gtest.h>
 #include "lightem.h"
@@ -46,8 +49,4 @@ INSTANTIATE_TEST_CASE_P(
          checksumTest( (const uint8_t[]){ 254, 128, 8, 0, 1, 0, 121 } )
     ));
 
-
-#ifdef LIGHTEM_TESTING
-
-
-#endif
+#endif /* LIGHTEM_TESTING */

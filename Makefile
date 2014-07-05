@@ -38,6 +38,8 @@ TESTSRCS += $(wildcard tests/test_lightem*.cpp)
 OBJS = $(SRCS:.cpp=.o)
 TESTOBJS = $(TESTSRCS:.cpp=.o)
 
+test: CCFLAGS += -DLIGHTEM_TESTING
+
 # linking rule
 $(TEST): $(TESTOBJS) $(BINDIR)
 	$(LD) $(LDFLAGS) $(TESTOBJS) -o $(TEST) $(TESTLIBS)
